@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    color: white;
+    background-image: url('https://www.yo-yoo.co.il/rekaim/images/uploads/boat-g80595dc79_1280.jpg');
+}
+
+.leftsize
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+    background-color: #e7f2f61f;
+}
+
+.contentsize { 
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.container {
+    color: black;
+    position: fixed;
+    left: 20%;
+    background-color: rgba(249, 247, 247, 0.871);
+    border-radius: 10px;
+    width: 75%;
+    height: 88%;
+    overflow: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    align-items: center;
+}
+
+.search input {
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    background-color: rgba(127, 126, 126, 0.647);
+    border-color: rgba(169, 169, 169, 0.475);
+}
+
+.search input::placeholder {
+    color: rgb(251, 243, 243);
+    font-size: 15px;
+}

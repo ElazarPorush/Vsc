@@ -1,0 +1,37 @@
+body {
+    height: 700px;
+}
+
+.title {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+.linktitle {
+    background-color: rgb(123, 120, 120);
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.AboutUs h2{
+    text-align: center;
+    color: red;
+}
+
+.AboutUs a {
+    color: white;
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+}
+
